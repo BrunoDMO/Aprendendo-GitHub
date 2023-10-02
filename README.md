@@ -1,13 +1,11 @@
 # teste
 
-> Status do projeto: teste
-
-Sendo ciênte de que isto é apenas um teste de markdown
+> Status do projeto: Desenvolvimento
 
 > ```
-> apenas um teste
+> Teste
 > ```
 
 ```
-um teste diferente
+Testes de HTML, CSS e JavaScripts serão salvos aqui
 ```
