@@ -8,6 +8,18 @@ body {
     background-color: black;
     color: orangered;
 }
+
+.ul{
+    display: flex;
+    flex-grow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.li{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
 .titulo-incrivel {
     font-weight: bold;
     color:#4A22E6;
@@ -30,7 +42,13 @@ body {
 h1 {
     font-size: 25px;
 }
-p {
+h2{
+    font-size: 20px;
+}
+.h2{
+    padding-top: 15px;
+}
+p,li,ul {
     color: rgb(155, 42, 1);
     font-size: 20px;
     padding-right: 5%;
@@ -94,12 +112,18 @@ header{
     padding: 2% 0% 0% 10%;
 }
 footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     background-color: rgba(255, 68, 0, 0.37);
     color: black;
     font-family: 'Cinzel', serif;
     font-weight: 600;
+    
 }
 .pedido_casamento{
     font-size: 50%;
