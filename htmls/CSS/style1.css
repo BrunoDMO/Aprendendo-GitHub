@@ -7,7 +7,6 @@ body {
     border: 5px solid orangered;
     background-color: black;
     color: orangered;
-    transition: 1s;
 }
 .titulo-incrivel {
     font-weight: bold;
