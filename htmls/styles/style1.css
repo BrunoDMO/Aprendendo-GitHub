@@ -147,11 +147,6 @@ footer{
 
 @media (max-width: 1200px) {
     .apresentacao {
-        padding: 8% 10%;
-        gap: 82px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
         flex-flow: column-reverse nowrap;
     }
 }
