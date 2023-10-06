@@ -29,6 +29,7 @@ body {
     flex-grow: row nowrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 15px;
 }
 .li{
     display: flex;
