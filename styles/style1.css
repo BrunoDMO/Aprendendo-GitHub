@@ -125,6 +125,21 @@ button{
     font-size: 90%;
     transition: 1s;
 }
+.spotify{
+    display: flex;
+    gap: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    border: 0.125rem solid var(--cor-primaria);
+    font-weight: 600; 
+    width: 25rem;
+    padding: 0.3rem;
+    font-size: 1.18rem;
+    border-radius: 1.56rem;
+    text-decoration: none;
+    transition: 1s;
+}
 
 footer{
     position: fixed;
@@ -177,6 +192,9 @@ footer{
     .imagem_mais_texto{
         justify-content: center;
         align-items: center;
+    }
+    .spotify{
+        width: 15rem;
     }
     footer{
         background-color: var(--cor-secundaria);
